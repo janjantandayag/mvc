@@ -1,0 +1,40 @@
+*{
+	margin:0;
+	padding:0;
+}
+nav {
+	margin-top:20px;
+	margin-bottom:50px;
+}
+nav li{
+	display: inline;
+	margin-right:20px;
+	text-transform: uppercase;
+	border-bottom: 1px dotted red;
+	padding-bottom:5px;
+}
+nav li a{
+	text-decoration: none;
+}
+.container{
+	width:900px;
+	margin:0 auto;
+}
+.users{
+	margin-top:50px;
+	border:1px solid #000;
+	text-align: center;
+	padding:20px 0;
+	margin-bottom:50px;
+}
+.users li{
+	list-style: none;
+	display: inline-block;
+	text-transform: uppercase;
+	padding:5px;
+	background:#eee;
+	border-radius: 5px;
+}
+form{
+	margin-top:20px;
+}
